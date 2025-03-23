@@ -1,0 +1,12 @@
+{
+  "name": "url-shortner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server-app\" \"npm run dev --prefix url-shortner-app\""
+  },
+
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
